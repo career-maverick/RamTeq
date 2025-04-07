@@ -1,0 +1,33 @@
+.home-container {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.banner-container {
+  margin: 2rem 0;
+  position: relative; /* For potential text overlays later */
+  max-width: 100%;
+  overflow: hidden; /* Ensure banner fits container */
+}
+
+.banner-image {
+  display: block; /* Remove extra space below image */
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center the image if container is wider */
+}
+
+.home-container h1 {
+  margin-bottom: 1rem;
+}
+
+.home-container h2 {
+  margin-top: 1rem; 
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.home-container p {
+  font-size: 1.1rem;
+  color: #666;
+} 

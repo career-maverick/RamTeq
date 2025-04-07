@@ -1,0 +1,91 @@
+/* Basic Contact Form Styling */
+.contact-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333; /* Set default text color for the container */
+}
+
+.contact-container h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #222; /* Ensure heading is dark */
+}
+
+.contact-container p:first-of-type { /* Target the descriptive paragraph */
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #555; /* Make descriptive text slightly lighter gray */
+}
+
+.contact-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #444; /* Ensure labels are dark */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  background-color: #fff; /* Ensure background is white */
+  color: #333; /* Ensure text is dark */
+}
+
+.contact-form textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.contact-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.success-message {
+  color: green;
+  background-color: #e6ffed;
+  border: 1px solid #b7ebc9;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  background-color: #ffe6e6;
+  border: 1px solid #ffb3b3;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: center;
+} 
