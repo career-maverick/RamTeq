@@ -10,7 +10,8 @@ export default defineConfig(({ command }) => {
 
   if (command === 'build') {
     // Apply base path only for production builds (GitHub Pages)
-    config.base = '/RamTeq-LandingSite/'
+    // Match this to your GitHub repository name!
+    config.base = '/RamTeq/'
   }
 
   return config
